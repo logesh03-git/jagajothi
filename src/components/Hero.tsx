@@ -1,19 +1,34 @@
 import React from "react";
+import heroBg from "../assets/herobg.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
   return (
-    <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center text-white px-6">
-      <p className="text-lg md:text-xl">Hi I am</p>
-      <h1 className="text-3xl md:text-4xl font-bold text-orange-500 mt-2">
-        Chandrasekaran
-      </h1>
-      <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mt-4">
-        UI &amp; UX Designer
-      </h2>
-      <p className="text-gray-300 mt-6 max-w-2xl text-base md:text-lg">
-        Crafting user-friendly interfaces that make technology simple,
-        engaging, and meaningful.
-      </p>
+    <section
+      className="relative bg-cover bg-center text-white"
+      style={{
+        backgroundImage: `url(${heroBg})`, 
+      }}
+    >
+      <div className="bg-black/40 absolute inset-0" /> {/* dark overlay */}
+      <div className="relative container mx-auto text-center py-24 px-4">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
+          Jagajothi Ayurvedhas
+        </h1>
+        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+          Ayurveda & Varma Vaidhyasala where nature heals, tradition guides, and
+          wellness begins
+        </p>
+        <div className="flex justify-center gap-4">
+          <button onClick={()=>navigate("/products-list") } className="bg-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#8ea176] transition-all">
+            See more →
+          </button>
+          <button onClick={()=>navigate("/about-us") } className="border-2 border-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#a3b18a] hover:text-[#2b2b2b] transition-all">
+            About Us →
+          </button>
+        </div>
+      </div>
     </section>
   );
 };

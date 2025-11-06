@@ -23,10 +23,6 @@
   }
 }
 
-.animate-gradient-x {
-  background-size: 300% 300%;
-  animation: gradient-x 5s ease infinite;
-}
 
 html {
   scroll-behavior: smooth;
