@@ -29,9 +29,9 @@ const ProductCard: React.FC<ProductCardProps> = ({id, image, name, price, rating
 
       <div className="p-4">
         {/* Product Name */}
-        <h3 className="text-lg font-semibold text-gray-800 mb-2 truncate">
+        <p className="text-lg text-[#524E37] mb-2 truncate">
           {name}
-        </h3>
+        </p>
 
         {/* Price and Rating */}
         <div className="flex items-center justify-between">

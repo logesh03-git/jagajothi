@@ -10,7 +10,7 @@ const JagajothiVision: React.FC = () => {
 
         {/* Vision Heading */}
         <h2 className="text-4xl font-bold text-[#6E684A] mb-10 md:text-5xl">
-          Our Vision
+          About us
         </h2>
 
         {/* First Paragraph: Main Vision Statement */}

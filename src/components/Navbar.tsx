@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
               <li
                 key={item.name}
                 onClick={() => handleNavigation(item.path)}
-                className="border-b-2 border-transparent font-['Poppins'] hover:border-[#7a7f43] transition-all cursor-pointer py-1"
+                className="border-b-2 border-transparent text-[20px] font-['Sawarabi Mincho'] hover:border-[#7a7f43] transition-all cursor-pointer py-1"
               >
                 {item.name}
               </li>

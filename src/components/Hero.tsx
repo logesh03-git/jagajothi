@@ -13,10 +13,10 @@ const Hero: React.FC = () => {
     >
       <div className="bg-black/40 absolute inset-0" /> {/* dark overlay */}
       <div className="relative container mx-auto text-center py-24 px-4">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-          Jagajothi Ayurvedhas
+        <h1 className="text-4xl font-['Poppins'] md:text-5xl font-bold mb-4 drop-shadow-lg">
+          Welcome To Jagajothi Ayurvedhas
         </h1>
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+        <p className="text-lg text-[#FBF9F3] font-['Sawarabi\ Mincho'] md:text-xl mb-8 max-w-2xl mx-auto">
           Ayurveda & Varma Vaidhyasala where nature heals, tradition guides, and
           wellness begins
         </p>

@@ -64,9 +64,9 @@ const Products: React.FC = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-[#333] mb-2">
+              <p className="text-lg text-[#524E37] mb-2">
                 {product.name}
-              </h3>
+              </p>
               <div className="flex justify-between items-center text-[#555]">
                 <span>{product.price}</span>
                 <div className="flex items-center gap-1">
