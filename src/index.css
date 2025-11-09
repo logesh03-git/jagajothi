@@ -31,3 +31,15 @@ html {
 section {
   scroll-margin-top: 80px;
 }
+
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* For Firefox */
+.hide-scrollbar {
+    scrollbar-width: none;
+}

@@ -1,6 +1,4 @@
 import React from 'react';
-import { Handshake, CheckCircle, HandCoins, BookOpen } from 'lucide-react';
-
 
 import Hand from "../assets/handIcon.png"; 
 import Tick from "../assets/tick.png"; 

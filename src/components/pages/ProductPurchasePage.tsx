@@ -6,6 +6,12 @@ import omega from "../../assets/omega.png";
 import multi from "../../assets/multivitamin.png";
 import amrutha from "../../assets/amrutha.png";
 import powerliquid from "../../assets/powerliquid.png";
+import navaglow from "../../assets/navaglow.png";
+import kasthuri from "../../assets/kasthuri.png";
+import facecrub from "../../assets/facescrub.png";
+import herbal from "../../assets/herbal.png";
+import facewash from "../../assets/facewash.png";
+import aloevera from "../../assets/aloevera.png";
 import { useNavigate } from 'react-router-dom';
 
 
@@ -122,6 +128,115 @@ const productsData: Product[] = [
       'Contains Ayurvedic herb extracts.',
     ]
   },
+  { 
+      id: 7, 
+      image: aloevera,
+      name: 'Aloe Vera Shampoo', 
+      tagline: 'Pain relief liquid say goodbye to pain naturally', 
+      rating: 4.7, 
+      price: 270, 
+      listPrice: 300,
+      benefits: [
+"Gently cleanses scalp and hair without harshness.",
+"Deeply hydrates dry and dull hair.",
+"Strengthens hair roots and reduces hair fall.",
+"Soothes itchy, irritated scalp.",
+"Controls dandruff naturally.",
+"Adds shine and smoothness to hair",
+      ]
+    },
+    { 
+      id: 8, 
+      image: facewash,
+      name: 'Red Wine Face Wash', 
+      tagline: '',
+      rating: 4.8, 
+      price: 240, 
+      listPrice: 300,
+      benefits: [
+"Hydrates and nourishes skin for softness",
+"Rich in antioxidants to fight free radicals and slow aging.",
+"Brightens dull skin and boosts natural glow.",
+"Tightens pores for a smoother look.",
+"Reduces excess oil and prevents acne breakouts.",
+"Hydrates and nourishes skin for softness.",
+      ]
+    },
+    { 
+      id: 9, 
+      image: herbal , // Using the imported variable
+      name: 'Herbal Shampoo', 
+      tagline: '',
+      rating: 4.8, 
+      price: 285, 
+       listPrice: 300,
+      benefits: [
+"Strengthens roots and reduces hair fall.",
+"Promotes natural hair growth.",
+"Prevents dandruff and scalp irritation.",
+"Adds natural shine and smoothness.",
+"Keeps scalp cool and healthy.",
+"Reduces dryness and nourishes deeply.",
+"Repairs damaged hair and split ends.",
+"Safe for daily use on all hair types.",
+"Enriched with pure herbal extracts for total hair care."
+      ]
+    },
+    { 
+      id: 10, 
+      image: facecrub, // Using the imported variable
+      name: 'Face Scrub', 
+      tagline: '',
+      rating: 4.6, 
+      price: 285, 
+       listPrice: 300,
+      benefits: [
+"Almond gently exfoliates, removing dead skin cells.",
+"Papaya enzymes brighten skin and lighten dark spots.",
+"Neem fights pimples and prevents breakouts.",
+"Aloe Vera soothes, cools, and calms irritated skin.",
+"Clears clogged pores for a fresh, clean look.",
+"Improves skin texture, leaving it smooth and soft.",
+"Reduces excess oil while keeping skin hydrated.",
+"Fades tan and restores natural radiance.",
+"Boosts skin cell renewal for a youthful glow",
+      ]
+    },
+    { 
+      id: 11, 
+      image: kasthuri, // Using the imported variable
+      name: 'Kasthuri Gold Soap', 
+      tagline: '',
+      rating: 4.8, 
+      price: 180, 
+        listPrice: 200,
+      benefits: [
+"Gives a radiant, natural glow to the skin.",
+"Fades acne scars, blemishes, and pigmentation.",
+"Prevents pimples and controls breakouts.",
+"Tightens pores and firms the skin.",
+"Removes tan and brightens dull skin.",
+"Delays signs of ageing and enhances skin texture.",
+      ]
+    },
+    { 
+      id: 12, 
+      image: navaglow, 
+      name: 'Nava Glow Soap', 
+      tagline: '',
+      rating: 4.6, 
+      price: 180, 
+        listPrice: 200,
+      benefits: [
+"Aloe Vera",
+"Anti-aging & Prevents Skin Dryness,",
+"Veppalai Oil: Natural anti-inflammatory, antibacterial, and antifungal properties",
+"Glycerin",
+"Skin Moisturizer",
+"Shea Butter",
+"Skin Shining Properties",
+      ]
+    },
 ];
 
 // --- Helper Components ---

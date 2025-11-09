@@ -8,6 +8,12 @@ import omega from "../../assets/omega.png";
 import multi from "../../assets/multivitamin.png";
 import amrutha from "../../assets/amrutha.png";
 import powerliquid from "../../assets/powerliquid.png";
+import navaglow from "../../assets/navaglow.png";
+import kasthuri from "../../assets/kasthuri.png";
+import facecrub from "../../assets/facescrub.png";
+import herbal from "../../assets/herbal.png";
+import facewash from "../../assets/facewash.png";
+import aloevera from "../../assets/aloevera.png";
 
 // --- Data Typing and Structure ---
 interface Product {
@@ -63,6 +69,48 @@ const productsData: Product[] = [
     name: 'Multi Vitamin Tablet', 
     rating: 4.4, 
     price: 699, 
+  },
+  { 
+    id: 7, 
+    image: aloevera,
+    name: 'Aloe Vera Shampoo', 
+    rating: 4.7, 
+    price: 270, 
+  },
+  { 
+    id: 8, 
+    image: facewash,
+    name: 'Face Wash', 
+    rating: 4.8, 
+    price: 240, 
+  },
+  { 
+    id: 9, 
+    image: herbal, // Using the imported variable
+    name: 'Herbal Shampoo', 
+    rating: 4.8, 
+    price: 285, 
+  },
+  { 
+    id: 10, 
+    image: facecrub, // Using the imported variable
+    name: 'Face Scrub', 
+    rating: 4.6, 
+    price: 285, 
+  },
+  { 
+    id: 11, 
+    image: kasthuri, // Using the imported variable
+    name: 'Kasthuri Gold Soap', 
+    rating: 4.8, 
+    price: 180, 
+  },
+  { 
+    id: 12, 
+    image: navaglow, 
+    name: 'Nava Glow Soap', 
+    rating: 4.6, 
+    price: 180, 
   },
 ];
 
