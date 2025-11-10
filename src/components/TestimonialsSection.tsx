@@ -121,7 +121,7 @@ const TestimonialsSection: React.FC = () => {
         {/* Header */}
         <h2 
           id="testimonials-heading" 
-          className="text-3xl sm:text-4xl font-semibold tracking-tight mb-2"
+          className="text-4xl md:text-5xl text-[#6E684A] font-bold tracking-tight mb-2"
           style={{ color: headerColor }}
         >
           What Our Customers Say

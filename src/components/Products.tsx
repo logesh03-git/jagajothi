@@ -42,7 +42,7 @@ const Products: React.FC = () => {
   return (
     <section className="bg-[#fffaf3] py-16 px-6 md:px-12">
       <div className="text-center mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#5c4033]">
+        <h2 className="text-4xl md:text-5xl text-[#6E684A] font-bold ">
           Our Products
         </h2>
         <p className="text-[#a67c52] mt-2">

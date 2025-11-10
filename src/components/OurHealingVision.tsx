@@ -55,7 +55,7 @@ const OurHealingVision: React.FC = () => {
                 <img
                   src={physician.imageSrc}
                   alt={physician.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-300"
                 />
               </div>
 

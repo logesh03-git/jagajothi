@@ -6,6 +6,14 @@ import amRiceImg from '../assets/amrice.jpg';
 import poongarRiceImg from '../assets/poongarrice.jpg';
 import kuruvaiRiceImg from '../assets/kuravairice.jpg';
 import rockSaltImg from '../assets/rices.jpg';
+import nattusarkarai from '../assets/nattusarakarai.jpeg';
+import karuppukavunirice from '../assets/karuppukavunirice.jpeg';
+import karunkauruvai from '../assets/karunkauruvai.jpeg';
+import manisamba from '../assets/manisamba.jpeg';
+import rakthas from '../assets/rakthas.jpeg';
+import Poongar from '../assets/Poongar.jpeg';
+import kullakar from '../assets/kullakar.jpeg';
+import mappilla from '../assets/mappilla.jpeg';
 
 // Define the type for a single item (rice or salt)
 interface VarietyItem {
@@ -17,15 +25,18 @@ interface VarietyItem {
 const RiceVarieties: React.FC = () => {
   // Data for the visible and partially visible items in the image
   const items: VarietyItem[] = [
-    { id: 1, name: 'am rice', imageSrc: amRiceImg },
-    { id: 2, name: 'Poongar rice', imageSrc: poongarRiceImg },
+    { id: 1, name: 'Kuttuyanam rice', imageSrc: amRiceImg },
+    { id: 2, name: 'Rock salt', imageSrc: poongarRiceImg },
     { id: 3, name: '60 kuruvai rice', imageSrc: kuruvaiRiceImg },
-    { id: 4, name: 'Rock salt', imageSrc: rockSaltImg },
-    { id: 5, name: 'Mysoremalli rice', imageSrc: rockSaltImg },
-    { id: 6, name: '...', imageSrc: rockSaltImg },
-    { id: 7, name: '60 kuruvai rice', imageSrc: kuruvaiRiceImg },
-    { id: 8, name: 'Rock salt', imageSrc: rockSaltImg },
-    { id: 9, name: 'Mysoremalli rice', imageSrc: rockSaltImg }
+    { id: 4, name: 'Mysoremalli rice', imageSrc: rockSaltImg },
+    { id: 5, name: 'Nattu sarkarai', imageSrc: nattusarkarai },
+    { id: 6, name: 'Karuppu kavuni rice', imageSrc: karuppukavunirice },
+    { id: 7, name: 'Karunkuruvai rice', imageSrc: karunkauruvai },
+    { id: 8, name: 'Manisamba rice', imageSrc: manisamba },
+    { id: 9, name: 'Rakthashali rice', imageSrc: rakthas },
+    { id: 10, name: 'Kullakar rice', imageSrc: kullakar },
+    { id: 11, name: 'Poongar rice', imageSrc: Poongar },
+    { id: 12, name: 'Mappillasamba rice', imageSrc: mappilla },
   ];
 
   return (

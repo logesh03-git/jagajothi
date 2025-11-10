@@ -26,7 +26,7 @@ const HolisticCare: React.FC = () => {
       <div className="max-w-6xl mx-auto">
 
         {/* Heading centered over the content area */}
-        <h2 className="text-4xl text-[#6E684A] font-boldmb-12 text-center md:text-5xl">
+        <h2 className="text-4xl text-[#6E684A] font-bold mb-12 text-center md:text-5xl">
           Holistic Care
         </h2>
 

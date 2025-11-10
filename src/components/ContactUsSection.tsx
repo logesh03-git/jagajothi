@@ -156,7 +156,7 @@ const ContactUsSection: React.FC = () => {
         <div className="text-center mb-10 sm:mb-12">
           <h2 
             id="contact-us-heading" 
-            className="text-3xl font-semibold tracking-tight text-[#4A4B46] sm:text-4xl" // Darker text color derived visually
+            className="font-bold tracking-tight text-4xl md:text-5xl text-[#6E684A] sm:text-4xl" // Darker text color derived visually
           >
             Contact Us
           </h2>
