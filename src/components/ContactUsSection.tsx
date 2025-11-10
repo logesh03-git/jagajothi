@@ -84,7 +84,7 @@ const ContactUsSection: React.FC = () => {
     
     for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
         try {
-            const response = await fetch('http://localhost:5000/landing', {
+            const response = await fetch('https://jagajothi-backend.vercel.app/landing', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -276,7 +276,7 @@ const ProductPurchasePage: React.FC<ProductPurchasePageProps> = ({ productId = 1
   const starColor = '#FFC107'; 
 
    // *** API Configuration ***
-  const API_URL = 'http://localhost:5000/product'; // Updated endpoint
+  const API_URL = 'https://jagajothi-backend.vercel.app/product';
   const MAX_RETRIES = 3;
 
     // --- State ---

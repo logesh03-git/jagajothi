@@ -43,7 +43,7 @@ const ContactPage: React.FC = () => {
   const labelColor = '#A8795A';
   // Specific background color for the "Enquiry now" button
   const buttonBgColor = '#97977E'; 
-const API_URL = 'http://localhost:5000/contact';
+const API_URL = 'https://jagajothi-backend.vercel.app/contact';
   const MAX_RETRIES = 3;
 
   const [formData, setFormData] = useState<ContactFormState>({
