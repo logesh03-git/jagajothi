@@ -25,7 +25,7 @@ interface VarietyItem {
 const RiceVarieties: React.FC = () => {
   // Data for the visible and partially visible items in the image
   const items: VarietyItem[] = [
-    { id: 1, name: 'Kuttuyanam rice', imageSrc: amRiceImg },
+    { id: 1, name: 'Kattuyanam rice', imageSrc: amRiceImg },
     { id: 2, name: 'Rock salt', imageSrc: poongarRiceImg },
     { id: 3, name: '60 kuruvai rice', imageSrc: kuruvaiRiceImg },
     { id: 4, name: 'Mysoremalli rice', imageSrc: rockSaltImg },
