@@ -25,9 +25,9 @@ const reviewsData: Review[] = [
   },
   { 
     id: 3, 
-    name: 'Eswari', 
+    name: 'Bharathi S', 
     rating: 5.0, 
-    comment: 'Highly recommend Dr. Divya & Vaithiyar Gandhi – great service & comfort!' 
+    comment: 'I had severe neck pain because of cervical spondylitis. After taking treatment in here I feel so much better now Thank you sir and divya mam' 
   },
   { 
     id: 4, 
@@ -40,6 +40,12 @@ const reviewsData: Review[] = [
     name: 'Saravanan', 
     rating: 5.0, 
     comment: 'My chronic pain improved significantly after just a few sessions. Highly recommend Jagajothi Ayurvedhas.' 
+  },
+  { 
+    id: 6, 
+    name: 'Jansi GJ', 
+    rating: 3.0, 
+    comment: 'Best varma treatment i neverever experienced like this jagajothi ayurvedhas best in varma thank you' 
   },
 ];
 

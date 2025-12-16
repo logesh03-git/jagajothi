@@ -17,14 +17,14 @@ const Hero: React.FC = () => {
           Welcome To Jagajothi Ayurvedhas
         </h1>
         <p className="text-lg text-[#FBF9F3] font-['Sawarabi\ Mincho'] md:text-xl mb-8 max-w-2xl mx-auto">
-          Ayurveda & Varma Vaidhyasala where nature heals, tradition guides, and
+          Ayurveda & Varma Vaidhyasalai where nature heals, tradition guides, and
           wellness begins
         </p>
         <div className="flex justify-center gap-4">
           <button onClick={()=>navigate("/products-list") } className="bg-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#8ea176] transition-all">
             See more →
           </button>
-          <button onClick={()=>navigate("/about-us") } className="border-2 border-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#a3b18a] hover:text-[#2b2b2b] transition-all">
+          <button onClick={()=>navigate("/about-us") } className="border-2 border-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#a3b18a] transition-all">
             About Us →
           </button>
         </div>
