@@ -21,10 +21,10 @@ const Hero: React.FC = () => {
           wellness begins
         </p>
         <div className="flex justify-center gap-4">
-          <button onClick={()=>navigate("/products-list") } className="bg-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#8ea176] transition-all">
+          <button onClick={()=>navigate("/products-list") } className="bg-[#89825C] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#373425] transition-all">
             See more →
           </button>
-          <button onClick={()=>navigate("/about-us") } className="border-2 border-[#a3b18a] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#a3b18a] transition-all">
+          <button onClick={()=>navigate("/about-us") } className="border-2 border-[#89825C] text-[#f9f6ee] font-semibold px-6 py-2 rounded-full hover:bg-[#89825C] transition-all">
             About Us →
           </button>
         </div>
